@@ -1,8 +1,5 @@
 # LedgerChain
 
-> **Public source distribution:** This repository is a source showcase of LedgerChain's architecture and selected implementation. Certain core business-workflow and verification method bodies are intentionally withheld; affected operations return a clear HTTP 503 error. The live deployment is separate. This repository is not a complete runnable reproduction of every deployed workflow.
-
-
 **A full-stack business ledger, internal payments, inventory, asset provenance, and blockchain-evidence platform.**
 
 LedgerChain brings organization-scoped financial workflows and supply-chain traceability into one application. The repository includes the Next.js frontend, FastAPI backend, PostgreSQL persistence layer, Alembic migrations, backend regression tests, and Solidity evidence registry source.
